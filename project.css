@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVEGTIVE */
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+    width: 1200px;
+    margin-left: 20px;
+}
+
+.nav-1{
+    width: 90px;
+    height: 30px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    margin-right: 350px;
+    margin-top: 10px;
+}
+
+li{
+    width: 100px;
+    list-style-type: none;
+}
+.nav-2{
+    margin-left: 5px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.hero p{
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 500;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: #eee7dc;
+}
+.hero button{
+    border-radius: 10px;
+    width: 94px;
+    height: 40px;
+   background-color: #ffff;
+   color: #eee7dc;
+   border: 2px solid #94928f;
+}
+a{
+    text-decoration: none;
+    color: #94928f;
+}
+
+.nav-4{
+    display: none;
+   
+}
+
+/* HERO-1,2,3,4,5 */
+.hero-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin: 40px 140px 0; */
+   margin: 100px;
+}
+.hero-2{
+    text-align: start;
+   
+}
+.hero-3 h1{
+    font-size: 50px;
+    font-family: arial;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-right: 380px;
+}
+.hero-3 p{
+    padding: 10px;
+    margin-right: 300px;
+    font-size: 16px;
+}
+.hero-3 button{
+    background-color: #000;
+    margin: 20px 0;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: 11px;
+    font-family: arial;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+}
+.hero-4{
+    margin: 20px 0;
+}
+.hero-4 img{
+    margin: 20px;
+}
+.hero-5 img{
+    width: 400px;
+    height: 430px;
+    margin-right: 20px;
+}
+
+/* @MEDIA */
+@media (max-width: 500px) {
+    nav{
+        margin: 0;
+        width: 100%;
+    }
+    .nav-1{
+        margin: 40px 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    .hero{
+        display: none;
+    }
+    .nav-4{
+        display: block;
+        margin: 40px 20px;
+    }
+    
+    
+    /*  HERO-1,2,3,4,5  */
+    .hero-1{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+   .hero-2{
+        margin: 30px 20px;
+   }
+   .hero-3 h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0 15px;
+   }
+   .hero-3 p{
+    margin: 0 30px;
+    font-size: 17px;
+   }
+   .hero-3 button{
+    margin: 0 110px;
+    width: 120px;
+   }
+   .hero-4{
+    display: flex;
+   }
+   .hero-4 img{
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+   }
+   .hero-5 img{
+        width: 100%;
+   }
+}
