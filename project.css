@@ -142,7 +142,10 @@ a{
         margin: 0;
     }
    .hero-2{
-        margin: 30px 20px;
+        margin: 0;
+   }
+   .hero-3{
+    text-align: center;
    }
    .hero-3 h1{
     font-size: 30px;
@@ -150,15 +153,17 @@ a{
     margin: 0 15px;
    }
    .hero-3 p{
-    margin: 0 30px;
+    margin: 0 70px;
     font-size: 17px;
    }
    .hero-3 button{
-    margin: 0 110px;
-    width: 120px;
+    margin: 20px;
+    align-items: center;
    }
    .hero-4{
     display: flex;
+    justify-content: space-between;
+    margin: 20px;
    }
    .hero-4 img{
     margin: 10px;
@@ -166,6 +171,6 @@ a{
     height: 30px;
    }
    .hero-5 img{
-        width: 100%;
+        width: 90%;
    }
 }
